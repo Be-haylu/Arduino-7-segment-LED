@@ -1,4 +1,14 @@
-/* behaylu*/
+/* behaylu
+   A
+   ---
+F |   | B
+  | G |
+   ---
+E |   | C
+  |   |
+   ---
+   D
+*/
 // the setup function runs once when you press reset or power the board
 int pinA =2 ;
 int pinB = 6;
