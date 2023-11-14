@@ -1,4 +1,4 @@
-# projecr Title: Arduino-7-segment-LED
+# project Title: Arduino-7-segment-LED
 
 
 Arduino 7 segment LED project
