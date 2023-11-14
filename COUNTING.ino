@@ -1,4 +1,17 @@
-/* BEHAYLU*/
+/* BEHAYLU
+  
+    A
+   ---
+F |   | B
+  | G |
+   ---
+E |   | C
+  |   |
+   ---
+   D
+   
+*/
+
 
 // the setup function runs once when you press reset or power the board
 
@@ -13,9 +26,9 @@ int pinG = 11;
 //int D2 = 10;
 //int D3 = 11;
 //int D4 = 12
+
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
- 
+// initialize digital 
 pinMode(pinA, OUTPUT);
 pinMode(pinB, OUTPUT);
 pinMode(pinC, OUTPUT);
@@ -25,10 +38,32 @@ pinMode(pinF, OUTPUT);
 pinMode(pinG, OUTPUT);
 }
 
+
 // the loop function runs over and over again forever
 void loop() {
-  //0
-  digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
+  for (int i=1;i<=5;++i){
+   numzero();
+   numone();  
+   numtwo();
+   numthree();
+   numfour();
+   numfive();
+   numsix();
+   numseven();
+   numeight();
+   numnine();  }
+}
+
+
+
+
+
+
+//numbers as functions
+
+int numzero(){
+    //0
+  digitalWrite(pinA, HIGH);  
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
   digitalWrite(pinD, HIGH);
@@ -36,16 +71,21 @@ void loop() {
   digitalWrite(pinF, HIGH);
   digitalWrite(pinG, LOW);
   delay(1000); 
+
+}
+
+int numone(){  
   //1
-  digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(pinA, LOW);   
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
   digitalWrite(pinD, LOW);
   digitalWrite(pinE, LOW);
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
-  delay(1000); 
-//2
+  delay(1000); }
+int numtwo(){
+    //2
   digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, LOW);
@@ -54,8 +94,9 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, HIGH);
   delay(1000); 
- //3
-  
+  }
+int numthree(){
+     //3
   digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
@@ -64,8 +105,9 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, HIGH);
   delay(1000);                    // wait for a second
-
-  //4
+  }
+  int numfour(){
+      //4
   
   digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
@@ -74,8 +116,9 @@ void loop() {
   digitalWrite(pinE, LOW);
   digitalWrite(pinF, HIGH);
   digitalWrite(pinG, HIGH);
-  delay(1000);     
-
+  delay(1000);  
+  }
+  int numfive(){ 
   //5
     digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, LOW);
@@ -84,8 +127,10 @@ void loop() {
   digitalWrite(pinE, LOW);
   digitalWrite(pinF, HIGH);
   digitalWrite(pinG, HIGH);
-  delay(1000);     
-    //6
+  delay(1000);  
+  }
+  int numsix(){
+        //6
    digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, LOW);
   digitalWrite(pinC, HIGH);
@@ -93,9 +138,11 @@ void loop() {
   digitalWrite(pinE, HIGH);
   digitalWrite(pinF, HIGH);
   digitalWrite(pinG, HIGH);
-  delay(1000);  
-      //7
-   digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000); 
+  }
+  int numseven(){
+         //7
+  digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
   digitalWrite(pinD, LOW);
@@ -103,7 +150,9 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
   delay(1000);  
-      //8
+  }
+  int numeight(){
+          //8
    digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
@@ -112,7 +161,9 @@ void loop() {
   digitalWrite(pinF, HIGH);
   digitalWrite(pinG, HIGH);
   delay(1000);  
-      //6
+  }
+  int numnine(){
+      //9
    digitalWrite(pinA, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
@@ -122,5 +173,4 @@ void loop() {
   digitalWrite(pinG, HIGH);
   delay(1000);  
  
-  
-}
+  }
