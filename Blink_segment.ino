@@ -153,7 +153,7 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
   delay(100); 
- digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, LOW);
   digitalWrite(pinD, LOW);
@@ -161,7 +161,7 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
   delay(100); 
- digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, LOW);
   digitalWrite(pinC, HIGH);
   digitalWrite(pinD, LOW);
@@ -177,7 +177,7 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
   delay(100); 
-   digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, LOW);
   digitalWrite(pinC, LOW);
   digitalWrite(pinD, LOW);
@@ -185,7 +185,7 @@ void loop() {
   digitalWrite(pinF, LOW);
   digitalWrite(pinG, LOW);
   delay(100); 
- digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(pinA, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(pinB, LOW);
   digitalWrite(pinC, LOW);
   digitalWrite(pinD, LOW);
